@@ -1,0 +1,45 @@
+/* Customize the calendar container */
+.react-datepicker {
+    font-family: Arial, sans-serif;
+    border: none;
+    background-color: #fff; /* Background color of the calendar */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Customize the calendar header */
+  .react-datepicker__header {
+    background-color: #ff9900; /* Header background color */
+    color: #fff; /* Header text color */
+  }
+  
+  /* Customize the calendar day names */
+  .react-datepicker__day-name {
+    color: #ff9900; /* Day name color */
+  }
+  
+  /* Customize the calendar days */
+  .react-datepicker__day {
+    color: #333; /* Day color */
+  }
+  
+  /* Customize the selected date */
+  .react-datepicker__day--selected {
+    background-color: #ff9900; /* Selected date background color */
+    color: #fff; /* Selected date text color */
+  }
+  
+  /* Customize the today's date */
+  .react-datepicker__day--today {
+    border: 2px solid #ff9900; /* Border color of today's date */
+    background-color: #ff9900; /* Today's date background color */
+    color: #fff; /* Today's date text color */
+  }
+  
+  /* Customize the hover effect on dates */
+  .react-datepicker__day--keyboard-selected:hover,
+  .react-datepicker__day--selected:hover {
+    background-color: #ffcc80; /* Hover background color */
+    color: #fff; /* Hover text color */
+  }
+  

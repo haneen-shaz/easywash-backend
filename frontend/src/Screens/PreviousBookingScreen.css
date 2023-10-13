@@ -1,0 +1,105 @@
+/* .booking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    border: 1px solid #3c393d;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .booking-table th {
+    background-color: #d083d3;
+    color: #fff;
+  }
+  
+  .booking-table tr:hover {
+    background-color: #e4adda;
+  }
+  
+  .booking-table td {
+    color: #333;
+  }
+  
+  .booking-table td:first-child,
+  .booking-table th:first-child {
+    border-left: none;
+  }
+  
+  .booking-table td:last-child,
+  .booking-table th:last-child {
+    border-right: none;
+  }
+   */
+   /* PreviousBookingScreen.css */
+
+.booking-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.booking-table th, .booking-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.booking-table th {
+  background-color: #f2f2f2;
+}
+
+.booking-notification {
+  border: 1px solid #4CAF50;
+  background-color: #f8f8f8;
+  color: #4CAF50;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-notification .notification-content {
+  flex: 1;
+}
+
+.booking-notification .close-btn {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Optional: Add animation for a smooth closing effect */
+@keyframes slideOut {
+  from { max-height: 150px; opacity: 1; }
+  to { max-height: 0; opacity: 0; }
+}
+
+.slide-out {
+  animation: slideOut 0.5s ease-out;
+}
+
